@@ -8,7 +8,6 @@ import vb from 'vue-babylonjs';
 Vue.config.productionTip = false
 Vue.use(vb);
 
-
 new Vue({
   router,
   store,
