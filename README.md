@@ -1,6 +1,6 @@
 # vue-babylonjs-template
-Simple vuejs application with vue-babylonjs plugin
-
+Simple vuejs application with vue-babylonjs plugin controlling and animating a kind of 2b3, the 90's french boys band  
+Animation and models are done with blender and mixamo.
 
 ## Project setup
 ```

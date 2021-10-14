@@ -1,17 +1,26 @@
 <template>
   <div class="home">
-    <MyScene/>
+    <Viewport/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import MyScene from '@/components/MyScene.vue'
+import Viewport from '@/components/Viewport.vue'
 
 export default {
   name: 'Home',
   components: {
-    MyScene
+    Viewport
   }
 }
 </script>
+
+
+<style scoped>
+.home {
+  margin: 0 30%;
+  width: 50%;
+  /*height: 100%;*/
+}
+</style>
