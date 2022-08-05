@@ -3,19 +3,24 @@ Simple vuejs application with vue-babylonjs plugin controlling and animating a k
 Animation and models are done with blender and mixamo.
 
 ## Project setup
+### With docker compose
+```
+docker-compose up -d
+```
+### Without docker compose
+#### Install
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 npm run build
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuration Reference](https://cli.vuejs.org/config/).  
+See [Docker Reference](https://docs.docker.com).
