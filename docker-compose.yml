@@ -1,0 +1,12 @@
+services:
+  babylon-vue:
+    container_name: babylon-docker
+    working_dir: /home/node/app
+    build: .
+    command: npm run serve
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/home/node/app
+    ports:
+      - "8080:8080"

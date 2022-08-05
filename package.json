@@ -7,6 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@babylonjs/core": "^5.18.0",
+    "@babylonjs/loaders": "^5.18.0",
     "babylonjs": "^4.2.0",
     "file-system": "^2.2.2",
     "register-service-worker": "^1.7.1",
